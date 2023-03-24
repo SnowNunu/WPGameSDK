@@ -1,0 +1,58 @@
+{
+  "name": "WPGameSDK",
+  "version": "1.0.0",
+  "summary": "A short description of WPGameSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mandora/WPGameSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mandora": "trc19930224@aliyun.com"
+  },
+  "source": {
+    "git": "https://github.com/trc19930224/WPGameSDK.git"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "vendored_frameworks": "Frameworks/WPGameSDK.framework",
+  "frameworks": [
+    "UIKit",
+    "WebKit",
+    "Security"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "MJExtension": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "SAMKeychain": [
+
+    ],
+    "WMDragView": [
+
+    ],
+    "YYWebImage": [
+
+    ],
+    "TZImagePickerController/Basic": [
+
+    ],
+    "Qiniu": [
+
+    ]
+  }
+}
