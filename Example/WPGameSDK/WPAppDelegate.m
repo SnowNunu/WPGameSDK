@@ -14,7 +14,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [[WPGameSDK sharedInstance] initWithAppId:@"2001" AppKey:@"857c2037bb10b56820b4e6ce1823ec31" ChannelId:@"30619"];
+    [[WPGameSDK sharedInstance] initWithAppId:@"2001" AppKey:@"857c2037bb10b56820b4e6ce1823ec31"];
     [Bagel start];
     return YES;
 }
