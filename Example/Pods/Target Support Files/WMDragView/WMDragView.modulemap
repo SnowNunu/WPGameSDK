@@ -1,6 +1,0 @@
-framework module WMDragView {
-  umbrella header "WMDragView-umbrella.h"
-
-  export *
-  module * { export * }
-}

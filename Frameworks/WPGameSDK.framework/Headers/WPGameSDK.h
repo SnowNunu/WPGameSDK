@@ -21,10 +21,8 @@ typedef void(^RoleInfoUploadResultBlock) (BOOL);
 /// - Parameters:
 ///   - appId: appId 平台分配的appId
 ///   - appKey: appKey 平台分配的appKey
-///   - channelId: channelId 平台分配的channelId
 - (void)initWithAppId:(NSString *)appId
-               AppKey:(NSString *)appKey
-            ChannelId:(NSString *)channelId;
+               AppKey:(NSString *)appKey;
 
 /// 登录
 - (void)login:(LoginResultBlock)block;

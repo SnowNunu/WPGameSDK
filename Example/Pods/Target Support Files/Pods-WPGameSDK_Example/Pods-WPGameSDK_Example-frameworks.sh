@@ -176,42 +176,14 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Bagel/Bagel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HappyDNS/HappyDNS.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LookinServer/LookinServer.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Qiniu/Qiniu.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/WMDragView/WMDragView.framework"
-  install_framework "${PODS_ROOT}/WPGameSDK/Frameworks/WPGameSDK.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Bagel/Bagel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HappyDNS/HappyDNS.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LookinServer/LookinServer.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Qiniu/Qiniu.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/WMDragView/WMDragView.framework"
-  install_framework "${PODS_ROOT}/WPGameSDK/Frameworks/WPGameSDK.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

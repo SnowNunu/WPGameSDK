@@ -1,6 +1,0 @@
-framework module WPGameSDK {
-  umbrella header "WPGameSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

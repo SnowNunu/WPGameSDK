@@ -5,7 +5,6 @@ platform :ios, '11.0'
 target 'WPGameSDK_Example' do
   
   pod 'WPGameSDK', :git => 'https://github.com/trc19930224/WPGameSDK.git'
-#  pod 'WPGameSDK', :path => '../'
   pod 'LookinServer'
   pod 'Bagel'
 
